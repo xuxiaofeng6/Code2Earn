@@ -1,0 +1,91 @@
+/* style.css */
+/* 设置页面背景颜色 */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  header {
+    /* 修改背景颜色 */
+    background-color: #000203;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* 修改标题字体和大小 */
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #000102;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    /* 添加阴影效果 */
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  nav a:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  h2 {
+    /* 修改标题字体和大小 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 0;
+    color: #000000;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    /* 添加阴影效果 */
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* 添加动画效果 */
+  nav a, form input[type="submit"] {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  nav a:hover, form input[type="submit"]:hover {
+    background-color: #e0e0e0;
+    color: #000204;
+    transform: scale(1.1);
+  }
+  
